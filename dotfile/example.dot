@@ -1,15 +1,15 @@
 digraph {
 graph [ rankdir="LR" ];
 Writer [
-label = "Writer|<StrOut>StrOut
+label = "Writer|<StrOut>StrOut"
 shape = record
 ]
 Upperer [
-label = "Upperer|<StrIn>StrIn|<StrOut>StrOut
+label = "Upperer|<StrIn>StrIn|<StrOut>StrOut"
 shape = record
 ]
 Printer [
-label = "Printer|<StrIn>StrIn
+label = "Printer|<StrIn>StrIn"
 shape = record
 ]
 chan_0 [
