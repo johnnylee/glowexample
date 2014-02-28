@@ -1,4 +1,6 @@
 glow-example
 ============
 
-An example project using glow framework. 
+An example project using the glow framework.
+
+See http://github.com/johnnylee/glow. 

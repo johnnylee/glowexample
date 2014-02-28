@@ -1,0 +1,25 @@
+digraph {
+graph [ rankdir="LR" ];
+Writer [
+label = "Writer|<StrOut>StrOut
+shape = record
+]
+Upperer [
+label = "Upperer|<StrIn>StrIn|<StrOut>StrOut
+shape = record
+]
+Printer [
+label = "Printer|<StrIn>StrIn
+shape = record
+]
+chan_0 [
+label="4"
+]
+Writer:StrOut->chan_0
+chan_0->Upperer:StrIn
+chan_1 [
+label="1"
+]
+Upperer:StrOut->chan_1
+chan_1->Printer:StrIn
+}
